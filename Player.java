@@ -19,8 +19,6 @@ public class Player extends Board{
             this.move(board);
         }else{
             board.play(x,y,this.type);
-            board.checkWinner();
         }
-
     }
 }
